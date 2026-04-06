@@ -1,0 +1,39 @@
+body {
+	color: white;
+	background-color: black;
+	font-family:courier;
+}
+.barra {
+	width: 152px;
+	background-color: #0B1919;
+	color: white;
+	height: 100vh;
+	padding: 10px;
+	border: 3px solid #DADAD8;
+}
+.barra a {
+	color: white;
+	text-decoration: none;
+	display: block;
+}
+
+.header {
+	width: 100%;
+	background-color: #000;
+	text-align: center;
+}
+.header img {
+	width: 100%;
+	height: auto;
+	display: block;
+}
+.content{
+	flex: 1;
+	padding: 20px;
+}
+
+
+.main {
+	display: flex;
+	flex-direction: row;
+}
