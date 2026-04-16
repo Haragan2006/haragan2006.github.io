@@ -3,13 +3,25 @@ body {
 	background-color: black;
 	font-family:courier;
 }
+marquee {
+	background-color: #101010;
+}
+a {
+	color: white;
+}
+.admindiv{
+	max-width: 1024px;
+	margin: 0 auto;
+}
+
 .barra {
 	width: 152px;
 	background-color: #0B1919;
+	background-image: url(https://raw.githubusercontent.com/Haragan2006/haragan2006.github.io/refs/heads/main/assets/sdbg15.gif);
 	color: white;
 	height: 100vh;
 	padding: 10px;
-	border: 3px solid #DADAD8;
+	border: 2px solid #DADAD8;
 }
 .barra a {
 	color: white;
@@ -30,19 +42,70 @@ body {
 .content{
 	flex: 1;
 	padding: 20px;
+	flex-direction: column;
 }
-
 
 .main {
 	display: flex;
 	flex-direction: row;
 }
+
 .writers {
 	flex: 1;
 	flex-direction: row;
 	padding: 10px;
 	background-color: #303030;
+	background-image: url(https://raw.githubusercontent.com/Haragan2006/haragan2006.github.io/refs/heads/main/assets/sdbg2.gif);
 	margin: auto;
 	width: 310px;
 	border: 3px solid #DADAD8;
+}
+.writersalone {
+	flex: 1;
+	flex-direction: row;
+	padding: 10px;
+	background-color: #303030;
+	background-image: url(https://raw.githubusercontent.com/Haragan2006/haragan2006.github.io/refs/heads/main/assets/sdbg2.gif);
+	margin: auto;
+	width: 160px;
+	border: 3px solid #DADAD8;
+}
+
+
+.copyright{
+	flex: 1;
+	padding: 20px;
+	text-align: center;
+	color: #606363
+}
+
+.arrows{
+	flex: 1;
+	flex-direction: row;
+	padding: 20px;
+	text-align: center;
+}
+.sinarrow{
+	width: 48px;
+	height: auto;
+}
+.sin2arrow{
+	width: 256px;
+	height: auto;
+}
+.arrows a{
+	text-decoration: none;
+	color: #000000;
+	color: inherit;
+}
+
+.ultimo{
+	display: flex;
+	gap: 10px;
+	flex: 1;
+	flex-direction: row;
+	background-color: #202020;
+	padding: 25px;
+	margin: auto;
+	
 }
